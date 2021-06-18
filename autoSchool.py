@@ -140,6 +140,7 @@ class autoClass: # Auto joining class class
             print("timer Started")
             if self.timeEnd != None:
                 if waitUntilTime(startTime=self.timeEnd, overridemsg="") == False:
+                    print("Bypassing end time")
                     waitUntilTime()
             else:
                 waitUntilTime()
