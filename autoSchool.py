@@ -99,11 +99,11 @@ class autoClass: # Auto joining class class
                 try: # ---------------------------------------------------------------------------------- can not test yet
                     # print(eeeee)
                     # mute = self.driver.find_element_by_class_name("tnRfhc etFl5b")
-                    mute = WebDriverWait(self.driver, 2.5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".U26fgb.JRY2Pb.mUbCce.kpROve.yBiuPb.y1zVCf.M9Bg4d.HNeRed")))
+                    mute = WebDriverWait(self.driver, 2.5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".U26fgb.JRY2Pb.mUbCce.kpROve.yBiuPb.y1zVCf.HNeRed.M9Bg4d")))
                     mute.click()
-                    disableCam = WebDriverWait(self.driver, 2.5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".U26fgb.JRY2Pb.mUbCce.kpROve.yBiuPb.y1zVCf.M9Bg4d.HNeRed")))
+                    disableCam = WebDriverWait(self.driver, 2.5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".U26fgb.JRY2Pb.mUbCce.kpROve.yBiuPb.y1zVCf.HNeRed.M9Bg4d")))
                     disableCam.click()
-                    joinClass = WebDriverWait(self.driver, 2.5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".U26fgb.JRY2Pb.mUbCce.kpROve.yBiuPb.y1zVCf.M9Bg4d.HNeRed")))
+                    joinClass = WebDriverWait(self.driver, 2.5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt.M9Bg4d")))
                     joinClass.click()
                     # self.waitUrlChange(currentUrl)
                     inClass = True
