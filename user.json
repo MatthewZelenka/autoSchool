@@ -1,0 +1,14 @@
+{
+    "user": {
+        "userName": "Username",
+        "email": "Username@domain",
+        "password": "pa$$word"
+    },
+    "classes": {
+        "nameOfSchoolClass": {
+            "startTime": "9:30",
+            "endTime": "10:45",
+            "url": "urlForClassroom, meet, or zoom"
+        }
+    }
+}
