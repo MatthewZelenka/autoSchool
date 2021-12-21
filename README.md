@@ -1,2 +1,2 @@
 # autoSchool
-Automatic meet and zoom logging in application build for students
+Automatic meet and zoom logging in application build for yrdsb students
